@@ -42,10 +42,10 @@
             </div>
         </div>
 
-        <div id="credits" class="text-width" style="display: flex; align-items:center;">
+        <div id="credits" class="text-width">
         <p style="font-style: italic; color:grey; text-align: justify;">Цю гру створили Євгенія Моторевська, Наталка Соколенко та Галина Чижик спільно з командою <a href='https://texty.org.ua/'>TEXTY.ORG.UA</a> у співпраці із Представництвом "Фонду Фрідріха Науманна за Свободу" в Україні. Грудень 2021</p>
         <div id="logo" style="display: block;">
-        <a href='https://www.freiheit.org/ukr/kyiv'><img style="max-height:100px;" src="../assets/FNF_logo.png"/></a>
+        <a href='https://www.freiheit.org/ukr/kyiv'><img style="max-height:120px;" src="../assets/FNF_logo.png"/></a>
        <!-- <a href='https://texty.org.ua/'><img style="max-height:18px;" src="../assets/texty_logo.png"/></a> -->
         </div>
         

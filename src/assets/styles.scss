@@ -155,7 +155,7 @@ h4 {
 
 #screenshot {
   display: block;
-  width: 100%;
+  max-width: 500px;
   margin: auto;
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);  

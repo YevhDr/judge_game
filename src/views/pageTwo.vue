@@ -27,14 +27,14 @@
             <div class="socio-icons-box">
 
                 <!--fb-->
-                <a href="https://www.facebook.com/sharer/sharer.php?u="
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://texty.org.ua/d/2021/judge_game/"
                    target="_blank" class="share-btn">                   
                     <img id="fb" style="width: 50px" src="../assets/facebook.png"/>
                    
                 </a>
 
                 <!--tw -->
-                <a href="https://twitter.com/intent/tweet?text="
+                <a href="https://twitter.com/intent/tweet?text=https://texty.org.ua/d/2021/judge_game/"
                    target="_blank" class="share-btn">                   
                   <img id="tw" style="width: 50px" src="../assets/twitter.png"/>                 
                 </a>
@@ -43,12 +43,8 @@
    </div>
 
    <div id="credits" class="text-width">
-        <p style="font-style: italic; color:grey; text-align: justify; font-size: 14px;">Цю гру створили Євгенія Моторевська, Наталка Соколенко та Галина Чижик спільно з командою <a href='https://texty.org.ua/'>TEXTY.ORG.UA</a> у співпраці із Представництвом "Фонду Фрідріха Науманна за Свободу" в Україні. Грудень 2021</p>
-        <div id="logo" style="display: block;margin-top: -20px">
-        <a href='https://www.freiheit.org/ukr/kyiv'><img style="max-height:120px;" src="../assets/FNF_logo.png"/></a>
-        <!-- <a href='https://texty.org.ua/'><img style="max-height:18px;" src="../assets/texty_logo.png"/></a> -->
-   </div>
-        
+        <p>Цю гру створили <a href="https://www.facebook.com/motorevska" target="_blank">Євгенія Моторевська</a>, <a href="https://www.facebook.com/halia.chyzhyk" target="_blank">Наталка Соколенко</a> та <a href="https://www.facebook.com/halia.chyzhyk" target="_blank">Галина Чижик</a> спільно з командою <a href='https://texty.org.ua/' target="_blank">TEXTY.ORG.UA</a> у співпраці із Представництвом <a href="https://www.freiheit.org/ukr/kyiv" target="_blank">"Фонду Фрідріха Науманна за Свободу"</a> в Україні. Грудень 2021</p>       
+        <a href='https://www.freiheit.org/ukr/kyiv'><img style="max-height:120px;" src="../assets/FNF_logo.png"/></a>         
         </div>
 
   </div>  

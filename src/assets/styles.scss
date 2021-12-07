@@ -153,6 +153,14 @@ h4 {
   filter: grayscale(100%);  
 }
 
+#screenshot {
+  display: block;
+  width: 100%;
+  margin: auto;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);  
+}
+
 #wrapper {   
     max-width: 600px;
     margin: -20px auto auto auto;

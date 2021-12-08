@@ -52,11 +52,7 @@ export default {
       photo: require('@/assets'+ this.data[this.$index.new].foto)    
     }    
   },  
-  ready: function() {
-    
-   
-   
-  },  
+  ready: function() { },  
   created: function() {
   //якщо не була завантажена головна сторінка, то перенапраляє на головну
    var that = this;  
@@ -69,10 +65,7 @@ export default {
       this.$result.value = e.currentTarget.getAttribute('value')
     },
   },
-  computed: {
-   
-       
-  } 
+  computed: { } 
 }
 </script>
 

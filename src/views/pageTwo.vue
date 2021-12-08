@@ -62,7 +62,7 @@
   </div>
 
     <div id="credits" class="text-width">
-    <p>Цю гру створили <a href="https://www.facebook.com/motorevska" target="_blank">Євгенія Моторевська</a>, <a href="https://www.facebook.com/halia.chyzhyk" target="_blank">Наталка Соколенко</a> та <a href="https://www.facebook.com/halia.chyzhyk" target="_blank">Галина Чижик</a> спільно з командою <a href='https://texty.org.ua/' target="_blank">TEXTY.ORG.UA</a> у співпраці із Представництвом <a href="https://www.freiheit.org/ukr/kyiv" target="_blank">"Фонду Фрідріха Науманна за Свободу"</a> в Україні. Грудень 2021</p>       
+    <p>Цю гру створили <a href="https://www.facebook.com/motorevska" target="_blank">Євгенія Моторевська</a>, <a href="https://www.facebook.com/natali.sokolenko" target="_blank">Наталка Соколенко</a> та <a href="https://www.facebook.com/halia.chyzhyk" target="_blank">Галина Чижик</a> спільно з командою <a href='https://texty.org.ua/' target="_blank">TEXTY.ORG.UA</a> у співпраці із Представництвом <a href="https://www.freiheit.org/ukr/kyiv" target="_blank">"Фонду Фрідріха Науманна за Свободу"</a> в Україні. Грудень 2021</p>       
     <a href='https://www.freiheit.org/ukr/kyiv'><img style="max-height:120px;" src="../assets/FNF_logo.png"/></a>         
   </div>
     

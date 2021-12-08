@@ -89,7 +89,11 @@ export default {
     }    
   },
   created: function() {
-
+   //якщо не була завантажена головна сторінка, то перенапраляє на головну
+   var that = this;  
+   if(that.$status.reload === 'true'){
+      that.$router.replace('/')
+   } 
   },
   methods: { 
     selectNewCase: function(){  

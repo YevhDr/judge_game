@@ -20,18 +20,25 @@ import 'animate.css'
 /* import HelloWorld from '@/components/HelloWorld.vue' */
 
 export default {
-  name: 'Home',
+  name: 'Home',  
   components: {
     /*  HelloWorld */
+  },
+  ready: function() {   
+   
+  },  
+  created: function() {
+
   },
   methods: {
   letPlay: function(){
     const that = this;
+    that.$status.reload = 'false'
 
     document.getElementById("robe-wrapper").classList.add('play');
     document.getElementById("game-title").classList.add('fade-button')
     setTimeout(function() {
-      that.$router.push('/let_play');}, 1000);
+      that.$router.push({ name: 'pageOne' });}, 1000);
      
     }
   }

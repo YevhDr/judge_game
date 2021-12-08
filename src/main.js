@@ -15,7 +15,10 @@ let app = createApp(App)
 // 3. Use router and mount app
 app.use(router).mount('#app') 
 
+
+
 // 2. Assign the global variable before mounting
+app.config.globalProperties.$status = {"reload": "true"}
 app.config.globalProperties.data = json
 app.config.globalProperties.$index = {"array": Array.from(Array(json.length).keys()), "old": 0, "new": 0}
 app.config.globalProperties.$result = {"value": "false"}

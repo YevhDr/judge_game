@@ -9,24 +9,19 @@ const routes = [
     component: Home
   },
   {
-    path: '/let_play',
-    name: 'pageOne',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: '/let_play',  
+    name: 'pageOne',    
     component: () => import('../views/pageOne.vue'),
-    props: true
+    props: true   
   },
   {
     path: '/result',
-    name: 'pageTwo',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    name: 'pageTwo',    
     component: () => import('../views/pageTwo.vue'),
     props: true
   }
 ]
+
 
 const router = createRouter({
    history: createWebHashHistory(),
@@ -35,5 +30,7 @@ const router = createRouter({
     document.getElementById('app').scrollIntoView();
 }
 })
+
+
 
 export default router

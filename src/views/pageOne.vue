@@ -53,19 +53,24 @@ export default {
     }    
   },  
   ready: function() {
+    
+   
    
   },  
   created: function() {
-    
+  //якщо не була завантажена головна сторінка, то перенапраляє на головну
+   var that = this;  
+   if(that.$status.reload === 'true'){
+      that.$router.replace('/')
+   }   
   },
   methods: { 
     changeCorrectAnswer: function(e){   
       this.$result.value = e.currentTarget.getAttribute('value')
-    } 
-  
+    },
   },
   computed: {
-    
+   
        
   } 
 }

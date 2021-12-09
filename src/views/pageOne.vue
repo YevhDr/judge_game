@@ -41,8 +41,6 @@
 </template>
 
 <script>
-//import Router from 'Router.vue'
-//import JSON from "../assets/test_data.json";
 
 export default {  
   name: "pageOne",  
@@ -68,7 +66,3 @@ export default {
   computed: { } 
 }
 </script>
-
-<style lang="scss">
-  //@import "../assets/styles.scss";
-</style>

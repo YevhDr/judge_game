@@ -442,3 +442,12 @@ h4 {
     text-align:center; 
     border-bottom: 1px solid #CD2E2E;
   }
+
+  #logo-wrapper {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    @media(max-width: 600px){
+      display: block;
+    }
+  }

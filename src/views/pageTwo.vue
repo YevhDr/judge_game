@@ -104,7 +104,8 @@ export default {
       //суддя, якого зараз дивились стає "старим"    
       that.$index.old = that.$index.new 
       //виключємо його з можливого вибору
-      var array = that.$index.array.filter(function(n){return n != that.$index.old});   
+      var array = that.$index.array.filter(function(n){return n != that.$index.old});  
+      console.log(array); 
       
       //хто наступний
       var new_index;     
